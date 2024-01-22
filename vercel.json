@@ -1,5 +1,9 @@
 {
   "version": 2,
+  "env": {
+    "DB_NAME": "@nest_api_db_name",
+    "COOKIE_KEY": "@nest_api_cookie_key"
+  },
   "builds": [
     {
       "src": "src/main.ts",
